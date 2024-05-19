@@ -1,0 +1,129 @@
+body {
+    background-image: url('/images/background-img.png');
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.6fr;
+    margin: 0px;
+    height: 100vh;
+}
+
+#sidebar {
+    background-image: url("/images/nav-pic.png");
+    background-size:100vh;
+    grid-row: 1/5;
+    grid-column: 1/2;
+ 
+    margin-top: 0px;
+
+}
+.avtar{
+    text-align: center;
+}
+.avtar h5{
+    margin-top:-15px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    
+}
+
+.row img{
+    
+    width: 70px;
+    height: 70px;
+}
+
+#sidebar h5 {
+    color: rgba(131, 173, 204, 0.91);
+    justify-content: center;
+}
+
+#sidebar h3 {
+    color: rgba(131, 173, 204, 0.91);
+    font-style: bold;
+}
+
+#cont1 {
+
+    grid-column: 2/4;
+    grid-row: 1/2
+}
+
+#cont2 {
+
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.minicard{
+    background-color: rgb(154,220,212);
+    display: flex;
+    color:white;
+    margin: 50px;
+    padding: 22px;
+    border-radius:20px;
+    justify-content: space-between;
+    height: 80px;
+    width: 175px;
+}
+.cardpara{
+    color:white;
+    font-size: 18px;
+}
+#cont1 h1{
+    margin-left: 80px;
+    font-size: 45px;
+    color: rgba(37, 88, 125, 0.859);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.mainbar{
+    margin-left: 80px;
+    margin-top: -25px;
+    height: 20px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: rgba(238, 238, 238, 0.848);
+}
+.card{
+    
+    display: flex;
+    flex-direction: row;
+    height: 95px;
+    width:60%;
+    justify-content: space-between;
+    margin:30px;
+    margin-left:250px;
+    box-shadow: 1px 4px 8px 1px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.552);
+    color: rgba(131, 173, 204, 0.91);
+   
+   
+}
+.bar{
+    margin-left: -1px;
+    margin-top: -15px;
+    height: 20px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: rgba(68, 225, 183, 0.763);
+}
+.card-ele,h5{
+    margin-top:-15px;
+}
+
+.card h3{
+    margin-top: 0px;
+
+}
